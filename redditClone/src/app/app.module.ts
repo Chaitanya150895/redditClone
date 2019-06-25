@@ -9,6 +9,7 @@ import { AngularHelloWorldComponent } from './angular-hello-world/angular-hello-
 import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { ArticleComponent } from './article/article.component';
+import { ArticleFormComponent } from './article-form/article-form.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ArticleComponent } from './article/article.component';
     AngularHelloWorldComponent,
     UserItemComponent,
     UserListComponent,
-    ArticleComponent
+    ArticleComponent,
+    ArticleFormComponent
   ],
   imports: [
     BrowserModule,
